@@ -166,3 +166,21 @@ footer a:hover {
 .instagram-logo:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 600px) {
+  .gallery-page {
+    padding: 25px;
+  }
+
+  .gallery-preview {
+    padding: 25px;
+  }
+
+  .gallery-grid {
+    gap: 12px;
+  }
+
+  .gallery-grid img {
+    width: 100%;
+  }
+}
